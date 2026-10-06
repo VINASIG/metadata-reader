@@ -1,6 +1,6 @@
 # VINASIG Metadata Reader
 
-Inspect metadata in images, PDFs, media and Office/ZIP files locally in the browser. Search detected fields, distinguish browser file attributes from embedded information, and export a JSON report. Files are never uploaded, edited or executed. Inspection scope and limits appear beside each result.
+Inspect metadata in images, PDFs, media and Office/ZIP files locally in the browser. Read supported C2PA origin claims and recorded editing actions alongside EXIF and XMP. Filter grouped fields, open original values and export a JSON report. Files are never uploaded, edited or executed. Browser attributes and calculated fingerprints are distinguished from embedded information. Inspection scope and limits appear beside each result.
 
 Use [Metadata Reader](https://metadata.vinasig.io.vn/) in Vietnamese or [English](https://metadata.vinasig.io.vn/en/). Both routes are live over enforced HTTPS. The separate [Metadata Cleaner](https://clean.vinasig.io.vn/) removes supported image metadata without re-encoding. Observed deployment, DNS, repository details and discovery evidence are recorded in the [publication audit](docs/audits/PUBLICATION.md).
 
