@@ -2,7 +2,7 @@
 
 Inspect metadata in images, PDFs, media and Office/ZIP files locally in the browser. Search detected fields, distinguish browser file attributes from embedded information, and export a JSON report. Files are never uploaded, edited or executed. Inspection scope and limits appear beside each result.
 
-The planned canonical site is https://metadata.vinasig.io.vn/, with Vietnamese at root and English at /en/. The separate [Metadata Cleaner](https://github.com/VINASIG/metadata-cleaner) removes supported image metadata without re-encoding. Publication state is recorded in the audit. A configured URL does not imply live availability.
+Use [Metadata Reader](https://metadata.vinasig.io.vn/) in Vietnamese or [English](https://metadata.vinasig.io.vn/en/). Both routes are live over enforced HTTPS. The separate [Metadata Cleaner](https://clean.vinasig.io.vn/) removes supported image metadata without re-encoding. Observed deployment, DNS, repository details and discovery evidence are recorded in the [publication audit](docs/audits/PUBLICATION.md).
 
 Read [behavior and limits](docs/PRODUCT.md). Missing fields do not prove an absence of identifying data. Private manufacturer tags, encrypted files, old PDF revisions, Office contents and hidden pixel data are not exhaustively inspected. Unknown formats receive basic fingerprint/signature information with an explicit basic-only scope.
 
