@@ -96,6 +96,7 @@ for (const lang of ['vi', 'en'] as const) {
     browser,
   }, info) => {
     const context = await browser.newContext({
+      locale: 'vi-VN',
       javaScriptEnabled: false,
       viewport: { width: 320, height: 800 },
       colorScheme: 'dark',
