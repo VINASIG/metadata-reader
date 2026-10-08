@@ -12,6 +12,7 @@ import '../styles/app.css';
 import '../styles/control-surfaces.css';
 import '../styles/metadata.css';
 import '../styles/site-chrome.css';
+import '../styles/destructive-actions.css';
 interface Props {
   lang: 'vi' | 'en';
 }
@@ -145,7 +146,13 @@ const schema = {
             </div>
             <div class="input-feedback">
               <p class="supporting privacy">{c.privacy}</p>
-              <button type="button" id="clear" class="clear-button" disabled>
+              <button
+                type="button"
+                id="clear"
+                class="clear-button"
+                disabled
+                data-destructive-action
+              >
                 <Trash size={18} aria-hidden="true" />
                 {c.clear}
               </button>
